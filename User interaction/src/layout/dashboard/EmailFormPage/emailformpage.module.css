@@ -1,0 +1,80 @@
+.SignUp {
+  margin: 20px auto;
+  max-width: 400px;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f8f9fa;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: 'Georgia', serif;
+
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+ h1 {
+  text-align: center;
+  font-family: Georgia, serif;
+  font-size: 36px;
+  margin-top: 70px;
+  margin-left: -10px;
+  color: #122387;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.sign-up-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-container {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 10px;
+  color: #888;
+}
+
+input[type="email"] {
+  padding-left: 30px;
+  width: 100%;
+  height: 40px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: border-color 0.3s ease;
+}
+
+input[type="email"]:focus {
+  outline: none;
+  border-color: #66afe9;
+}
+
+button {
+  background-color: #122387;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+
+
+button:hover {
+  background-color: #4284c6;
+}
+
+.error-message {
+  color: #dc3545;
+  margin-top: 10px;
+  text-align: center;
+}

@@ -1,0 +1,87 @@
+
+.hero_section{
+font-family:Georgia, serif;
+margin-top:170px;
+
+}
+.main_heading{
+
+  color:#041058;
+      margin: 0 auto 32px;
+      width: 12ch;
+      text-align :left;
+      font-size: 45px;
+      margin-left:80px;
+      font-weight: bold;
+}
+
+.main_paragraph{margin:auto;
+width: 36ch;
+text-align: left;
+color:#757575;
+margin-left: 80px;
+margin-top: 50px;
+line-height: 1.6; 
+
+}
+
+.hero_image {
+  width: 500px;
+  margin-left: 1000px;
+  margin-top: -800px;
+  border: 2px solid #041058;
+  border-radius: 20px;
+  animation: floatAnimation 3s ease-out infinite;
+}
+.float {
+  animation: floatAnimation 3s infinite ease-in-out;
+}
+
+@keyframes floatAnimation {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+
+.phone_image {
+  width: 300px;
+  height: 300px;
+  margin-left: 830px;
+  margin-top: -120px;
+  border-radius: 20px;
+  border: 2px solid #041058;
+  animation: fadeInSlide 3s ease-out 0.5s infinite; 
+}
+
+.stat_image {
+  width: 130px;
+  height: 130px;
+  margin-left: 1400px;
+  margin-bottom: 400px;
+  border-radius: 20px;
+  border: 2px solid #041058;
+  animation: backgroundFadeAnimation 3s ease-out 1s infinite; 
+}
+
+.background-fade {
+  animation: backgroundFadeAnimation 10s infinite;
+}
+
+@keyframes backgroundFadeAnimation {
+  0%, 100% {
+    background-color: #88CCFF;
+  }
+  50% {
+    background-color: #FF88CC;
+  }
+}
+
+
+
+.image_content{margin-top: -550px;}
+
+

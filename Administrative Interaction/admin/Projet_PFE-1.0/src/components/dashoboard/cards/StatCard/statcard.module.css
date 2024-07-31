@@ -1,0 +1,82 @@
+.stat_card_container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: var(--color-white);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.stat_card_text_container {
+    gap: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.stat_card_title {
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: var(--color-primary);
+    text-transform: uppercase;
+}
+
+.stat_card_value {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--color-black);
+}
+
+.stat_card_icon_container {
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-primary);
+}
+
+.stat_card_icon {
+    width: 20px;
+    height: 20px;
+}
+.stat_card_change_counts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-left: 300px;
+    margin-top: 50px;
+    position: absolute;
+  }
+  
+  .increase_icon{
+    width: 20px;
+    height: 20px;
+    color: rgb(16, 127, 71);
+  }
+  .decrease_icon {
+    width: 20px;
+    height: 20px;
+    color: brown;
+  }
+  
+  .increase_count,
+  .decrease_count {
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: var(--color-black);
+  }
+  .stat_card_change_counts p {
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: var(--color-primary);
+    margin-right: 0.5rem; /* Ajustement de la marge */
+}
+
+  

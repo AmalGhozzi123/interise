@@ -1,0 +1,157 @@
+.sidebar {
+    top: 0;
+    left: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: sticky;
+    background-color: #F0F0F0 ;
+    transition: width 0.6s ease;   
+    font-family: Georgia, serif;
+
+
+}
+
+.sidebar-logo-container {
+    display: flex;
+    align-items: center;
+    width: 100%;  
+}
+
+.sidebar-logo-container img {
+    width: 80%;  
+    padding: 2em;
+    transition: opacity 0.3s ease; 
+    margin-left:15px;
+    margin-top: -33px;
+}
+
+.sidebar-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 0px;
+}
+
+.sidebar-items {
+   
+    margin-top: -300px;
+    margin-left: -6px;
+
+    
+}
+
+.sidebar-item {
+    gap: 10px;
+    display: flex;
+    padding: 1.5em 2em;
+    color: var(--color-white);
+    list-style: none;
+    text-decoration: none;
+    align-items: center;
+    justify-content: flex-start;
+    cursor: pointer;
+    width: 100%;
+    padding: 20px 10px;
+    margin: 12px 24px;
+}
+
+
+
+.sidebar-item-active {
+  
+    
+
+    display: flex;
+    align-items: center;
+    padding: 12px 12px;
+    margin: 12px 24px;
+    color: var(--color-white);
+    background-color: #d3d3d3 ;
+    text-decoration: none;
+    list-style: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    gap: 10px; 
+    border-radius: 8px;
+
+   
+
+    
+    
+    
+    
+}
+
+
+.sidebar-item-active:hover {
+    background-color: #d3d3d3;
+ 
+}
+
+
+
+
+.sidebar-item-icon {
+    width: 20px;
+    margin-left:20px; 
+}
+
+.sidebar-item-label {
+    font-size: 0.9em;
+    font-weight: 540;
+    white-space: nowrap; 
+    color:  var(--color-primary);
+
+}
+
+/* Footer */
+.sidebar-footer {
+    padding: 1.5em 2em;
+    color: var(--color-white);
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    gap: 10px; 
+    margin-left: 18px;
+}
+
+
+
+.sidebar-footer:hover {
+    display: flex;
+    align-items: center;
+    padding: 12px 12px;
+    margin: 12px 24px;
+    color: var(--color-white);
+    background-color: #d3d3d3 ;
+    text-decoration: none;
+    list-style: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    gap: 10px; 
+    border-radius: 8px;
+}
+
+
+.sidebar-toggle-icon {
+    cursor: pointer;
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 15px;
+    top: 25px;
+    
+}
+
+.search_icon_hidden {
+    position: absolute;
+    left: 10px;
+
+}
+
+

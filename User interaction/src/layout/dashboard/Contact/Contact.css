@@ -1,0 +1,130 @@
+.sign-up-form {
+  max-width: 900px; 
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  font-family: Georgia, serif;
+  border: 1px solid #ccc;
+  align-items: center;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 20px;
+}
+
+.input-container {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.input-container input {
+  width: 100%; 
+  border:solid 1px #4284c6;
+}
+
+.title h1 {
+  text-align: center;
+  font-family: Georgia, serif;
+  font-size: 36px;
+  margin-top: 70px;
+  margin-left: -10px;
+  color: #122387;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.error-message {
+  color: red;
+  display: flex;
+  align-items: center;
+}
+
+.error-icon {
+  margin-right: 5px;
+}
+
+.icon {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  color: #ccc;
+}
+
+input {
+  padding: 10px 30px 10px 40px;
+  height: 50px;
+  border: 1px solid #0a197b;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-family: Georgia, serif;
+}
+
+button {
+  width: 50%;
+  padding: 10px;
+  background-color:#122387;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  font-family: Georgia, serif;
+  margin-top: 20px;
+  margin-left: 210px;
+}
+
+button:hover {
+  background-color: #4284c6;
+}
+
+.dialog {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  width: 800px;
+  height: 220px;
+  max-width: 80%;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: Georgia, serif;
+  text-align: center;
+  border: 1px solid #1a23ab;
+}
+
+.dialog p {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.dialog button {
+  background-color: rgb(7, 24, 79);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 0;
+  cursor: pointer;
+  margin-top: 70px;
+  margin-left: 30px;
+}
+
+.dialog button:hover {
+  background-color: #122387;
+}
+
+.dialog h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.Contact {
+  margin-left: 1230px;
+  margin-top: -150px;
+}
