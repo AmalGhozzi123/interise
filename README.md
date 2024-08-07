@@ -87,6 +87,5 @@ To address these challenges, our solution "interise" offers an automated platfor
 - **Express.js:** A minimal and flexible web application framework for Node.js. It simplifies server-side development and HTTP request handling, offering a range of features through middleware for building robust and scalable applications.
 - **Node.js:** A JavaScript runtime environment that allows for server-side JavaScript execution. Node.js uses Google Chrome's V8 JavaScript engine and is known for its performance and ease of use with npm for package management.
 - **MongoDB:** A NoSQL database that stores data in a flexible, JSON-like format. Unlike traditional relational databases, MongoDB allows for dynamic schema design and simplifies data storage and retrieval processes.
-
 ## 🧩 Additional Information
-Feel free to modify and extend this project to suit your needs. If you encounter any issues or need further assistance, you can contact me at amalghozzi@outlook.com.
+Feel free to modify and extend this project to suit your needs. If you encounter any issues or need further assistance, you can contact me at `amalghozzi@outlook.com`.
